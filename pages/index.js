@@ -21,6 +21,7 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
+        <h2 className={utilStyles.headingLg}>Description</h2>
         <p>@Software_Engineer dedicated at writing softwares.</p>
         <p>
           (This is a sample website - you’ll be building a site like this on{" "}
